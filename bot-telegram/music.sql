@@ -1,0 +1,10 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "music" (
+	"id"	INTEGER,
+	"file_id"	TEXT,
+	"right_answer"	TEXT,
+	"wrong_answer"	INTEGER
+);
+INSERT INTO "music" VALUES (2,'AwACAgIAAxkDAAMdXtkruv3GdezoQYWRSRFb9Pd6HMQAAnoFAAJlTMlKftSr356_imIaBA','Ace Hood','JD');
+INSERT INTO "music" VALUES (1,'AwACAgIAAxkDAAMdXtkruv3GdezoQYWRSRFb9Pd6HMQAAnoFAAJlTMlKftSr356_imIaBA','ASAB Ferg','HZ');
+COMMIT;
